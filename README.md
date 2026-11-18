@@ -1,10 +1,14 @@
 # github-core-clone-01 (Go rewrite)
 
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/Flowjack94/github-core-clone-01-go/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/Flowjack94/github-core-clone-01-go/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
 A GitHub-compatible forge: git smart HTTP, REST v3, GraphQL v4 and MCP, in one
 static Go binary with a raw-TCP HTTP server and zero-alloc hot paths. Written
 fresh for the make.fun bounty `github-core-clone-01`.
 
-Bounty: https://make.fun/bounties/github-core-clone-01
+Bounty: https://make.fun/bounty/github-core-clone-01
 
 Run it:
 

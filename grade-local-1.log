@@ -1,0 +1,20 @@
+kit github-core-clone-01 dev: verified 63 files
+practice trial 0, drawn from drand round 33447412
+bot /home/hatch/workspace/makefun/github-core-clone-01-go @ worktree@9b92b605b26d: 15 entries
+upstream no model (no key nor --gateway given, and this competition does not require model calls); trials kept in /home/hatch/.makefun/trials/github-core-clone-01/01a1ef44-421a-76f5-9b4a-72af3a2d8c40
+trial 0: live pass on practice/trial-0/
+trial 0: void
+github-core-clone-01 dev, driver process
+bot       /home/hatch/workspace/makefun/github-core-clone-01-go @ worktree@9b92b605b26d
+status    failed: trial 0's live pass voided (instance): the instance has no input/env/ for the env to read its seed from. A void is an infrastructure fault, never the agent's: the server runs the trial again on its instance
+upstream  no model (no key nor --gateway given, and this competition does not require model calls): every model call of a live pass, metered against $0.02 a trial
+trial 0   practice/trial-0/, instance 2dbde1d1494af3cbb4bfd5e6cd44b3dbab56c5cc7d158ebb9313d9d93b7737fc: void
+  live    void (instance): the instance has no input/env/ for the env to read its seed from; the agent never started
+  kept    /home/hatch/.makefun/trials/github-core-clone-01/01a1ef44-421a-76f5-9b4a-72af3a2d8c40/trial-0
+kept      /home/hatch/.makefun/trials/github-core-clone-01/01a1ef44-421a-76f5-9b4a-72af3a2d8c40 (trials.json, result.json, summary.json and each trial-<t>/)
+this checkout's grader is not the kit's:
+  - node: the server's harness runs v22.23.4, this one v24.22.1
+note: the kit holds 1 file(s) kit.json does not list (not read): transcripts.tar.gz
+note: process driver: the agent, the env and the forwarder ran on this machine unisolated, on loopback ports and no trial network, and the score records no image digest; the server runs each trial in its docker sandbox, the agent and the env on an internal network with the forwarder its only way out
+note: a model answers differently each time, so this result_sha256 is these trials', never the server's: each trial's replay check is what says whether it would count in the final (a nondeterministic trial leaves the run unranked)
+note: no model was behind the gateway: neither ANTHROPIC_API_KEY, OPENAI_API_KEY nor --gateway was given, and this competition does not require model calls (harness.model_calls: optional), so a model call the entry made met an upstream error, where the server's live pass would have reached the model; to grade an entry that calls one, set one of those keys or give --gateway
